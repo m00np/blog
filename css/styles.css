@@ -1,5 +1,9 @@
 
 @charset "UTF-8";
+* {
+  padding: 0 auto;
+  margin:0;
+}
 #topo {
     padding: 0 auto;
     margin:0;
