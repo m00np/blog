@@ -13,13 +13,12 @@
 
 /* BACKGROUND */
 
-      .background{
-          height: 500px;
-          width: 100%;
-          background-position:center;
-          background-image: url("../imgs/tutu.png");
-          
-        }
+.background{
+  height: 500px;
+  width: 100%;
+  background-position:center;
+  background-image: url("../imgs/tutu.png");
+}
 
 /* MENU */  
 
@@ -31,7 +30,7 @@
           width: 100%; 
         }
         
-     .navbar a {
+        .navbar a {
           font-family: 'bebas neue';
           float: left;
           display: block;
@@ -43,14 +42,14 @@
         }
         
       
-      .navbar a:hover {
+        .navbar a:hover {
           background: #ddd;
           color: black;
           
         }
         
       
-      .main {
+        .main {
           margin-top: 30px; 
         } 
 
@@ -59,66 +58,38 @@
         #conteudo1 {
           padding: 10px;
           width: 80%;
-          background: #ffffffc0;
-          font-family: bebas neue;
-          font-size: 30px;
+          background: #bbbbbb;
           }
 
         .postagem {
-            text-align: justify;
+            text-align: center;
             width: 80%;
             padding: 10px;
-            font-family: Helvética;
-            font-size: 20px;
         }
 
 
-/* redes sociais */
+/* SCROLLBAR */
+/* width */
 ::-webkit-scrollbar {
   width: 5px;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
  
-
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888; 
 }
 
-
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
 
-.icones-sociais{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
 
-.icones-sociais li {
-  display: inline-block;
-}
 
-.icones-sociais a {
-  width: 64px;
-  height: 64px;
-  display: block;
-  text-indent: -99999px;
-}
 
-.facebook {
-  background-image: url facebook.png;
-}
-.git {
-    background-image: url(git.png);
-}
-.Instagram {
-  background-image: url(Instagram.png);
-}
 
-@media only screen and (max-device-width: 900%) {
-  /* .menu { width:100%; } */
-  }
